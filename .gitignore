@@ -1,0 +1,17 @@
+# 数据缓存（东财行情 parquet，可重新抓取，不进仓）
+cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# 运行产物
+*.log
+.DS_Store
