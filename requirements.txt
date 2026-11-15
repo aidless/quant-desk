@@ -4,3 +4,5 @@ numpy>=1.26
 pandas>=2.0
 pydantic>=2.5
 requests>=2.31
+# starlette 新版 TestClient 要求（CI 上 fastapi 会解析到更高 starlette）
+httpx2>=0.1
